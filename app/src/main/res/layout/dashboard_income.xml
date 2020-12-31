@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type:"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:textColor="#4dff4d"
+            android:id="@+id/type_income_dashboard"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount:"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#4dff4d"
+            android:id="@+id/amount_income_dashboard"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6 Nov 2020"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/date_income_dashboard"
+            android:textColor="@color/date_color"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
